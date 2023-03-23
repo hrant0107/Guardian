@@ -1,0 +1,30 @@
+.property {
+  @apply bg-[#F4F8F9] pt-[100px] pb-[126px];
+  .propertyBlock {
+    .titles {
+      @apply flex flex-col justify-center items-center mb-[60px]
+       max-992:mb-[150px]
+       max-768:mb-[73px]
+       max-390:mb-[53px];
+
+      h1 {
+        @apply font-semibold text-[38px] leading-[64px]  text-[#4E4E4E]
+        max-992:text-[34px];
+        span {
+          @apply text-[#0BAEB9];
+        }
+      }
+      .line {
+        @apply w-[111px] h-[4px] bg-[#E9E9E9] opacity-[0.6] rounded-[30px] mt-[24px] mb-[24px];
+      }
+      p {
+        @apply max-w-[623px] font-normal text-center
+         text-[#95A1A1] text-[19px] leading-[150%]
+         max-992:text-[15px]
+         max-768:max-w-[569px]
+         max-576:max-w-[509px]
+         max-390:max-w-[358px];
+      }
+    }
+  }
+}

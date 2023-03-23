@@ -1,0 +1,36 @@
+.protected {
+  background: url("../../../assets/images/protectedBg.png");
+
+  @apply bg-cover bg-no-repeat py-[235px];
+  .protectedBlock {
+    @apply flex flex-col justify-center items-center max-w-[732px];
+    h1 {
+      @apply text-[#4E4E4E] w-[100%] font-semibold 
+      text-[38px] leading-[50px] text-center max-992:text-[34px]
+      max-768:max-w-[570px]
+      max-576:max-w-[510px] max-576:text-[26px]
+      max-390:max-w-[358px];
+      span {
+        @apply text-[#0BAEB9];
+      }
+    }
+    .line {
+      @apply w-[111px] h-[4px] bg-[#EAEEEF] opacity-[0.6] rounded-[30px] mt-[20px] mb-[24px];
+    }
+    p {
+      @apply max-w-[731px] w-[100%] font-normal text-[17px] leading-[150%] text-center text-[#95A1A1]
+      max-992:text-[15px]
+      max-768:max-w-[570px]
+      max-576:max-w-[510px]
+      max-390:max-w-[358px];
+    }
+    button {
+      @apply mt-[24px] gap-[9px] cursor-pointer bg-[#0BAEB9] rounded-[55px] flex justify-center items-center px-[53px] py-[20px];
+      box-shadow: 0px 4px 24px rgba(11, 174, 185, 0.12);
+
+      p {
+        @apply font-semibold text-[19px] leading-[24px] text-white;
+      }
+    }
+  }
+}

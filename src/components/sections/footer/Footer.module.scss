@@ -1,0 +1,10 @@
+.block {
+  @apply flex justify-between items-center
+  max-576:flex-col max-576:mt-[24px];
+  p {
+    @apply font-normal text-[13px] leading-[28px] text-[#95A1A1];
+  }
+  .socials {
+    @apply flex items-center gap-[20px] my-[18px];
+  }
+}

@@ -1,0 +1,20 @@
+.item {
+  @apply flex flex-col items-center;
+  h5 {
+    @apply mt-[23px] font-semibold text-[19px] leading-[150%] text-center text-[#4E4E4E];
+  }
+  p {
+    @apply max-w-[255px] font-normal text-[17px] leading-[150%] text-center text-[#95A1A2] mt-[7px] max-992:text-[15px] max-768:max-w-[330px];
+  }
+
+  .number {
+    @apply font-semibold text-[45px] leading-[150%] text-[#EAEEEF] mt-[16px];
+  }
+}
+.secondItem {
+  @apply mt-[107px] max-768:m-0 max-768:relative max-768:bottom-[40px] max-720:bottom-0;
+
+  /* @media only screen and (max-width: 720px) {
+    @apply m-0 static;
+  } */
+}

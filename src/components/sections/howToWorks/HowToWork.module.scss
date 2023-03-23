@@ -1,0 +1,40 @@
+.howToWorks {
+  @apply relative w-[100%] flex justify-between gap-[15px] pt-[85px] pb-[84px] pr-[29px] mb-[100px] z-[1] max-768:flex max-768:flex-col items-center max-768:pr-0;
+
+  &::after {
+    content: "";
+    background: linear-gradient(
+        200.5deg,
+        rgba(11, 174, 185, 0.27) -44.57%,
+        #0baeb9 42.24%
+      ),
+      url("../../../assets/images/infoBg.png");
+    box-shadow: 0px 24px 35px rgba(17, 173, 181, 0.12);
+    @apply absolute rounded-[12px] bg-cover bg-no-repeat top-0 right-0 left-[95px] bottom-0 z-[-1] max-768:left-0 max-768:top-[180px] max-768:m-auto;
+  }
+
+  .images {
+    @apply relative;
+    .imgBig {
+      @apply max-w-[559px] w-[100%] max-992:max-w-[447px] max-768:m-auto max-768:px-[15px] max-390:max-w-[326px];
+    }
+    .icon {
+      position: absolute;
+      top: calc(50% - 40px);
+      right: calc(50% - 40px);
+    }
+  }
+
+  .descrBlock {
+    @apply max-w-[447px] w-[100%] flex justify-start flex-col max-992:max-w-[402px] max-768:items-center max-768:max-w-[559px] max-576:max-w-[437px] max-390:max-w-[297px];
+    h3 {
+      @apply text-[38px] font-normal leading-[140%] text-white max-992:text-[24px] max-768:text-[34px] max-768:mt-[33px] max-576:text-[26px];
+    }
+    .descr {
+      @apply font-normal text-center text-[17px] leading-[150%] text-white opacity-[0.8] w-[100%] max-992:text-[15px];
+    }
+    .secDescr {
+      @apply mt-[20px];
+    }
+  }
+}

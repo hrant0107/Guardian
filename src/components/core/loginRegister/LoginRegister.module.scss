@@ -1,0 +1,11 @@
+.block {
+  @apply flex gap-[21px] text-[15px];
+}
+.login {
+  @apply text-white100  leading-[32px] max-576:hidden;
+}
+
+.register {
+  @apply text-black100 leading-[24px]  bg-white px-[14px] py-[6px] rounded-[34px] max-576:hidden;
+  box-shadow: 0px 4px 24px rgba(11, 174, 185, 0.12);
+}

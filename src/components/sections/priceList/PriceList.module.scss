@@ -1,0 +1,28 @@
+.price {
+  @apply pt-[24px];
+  .priceBlock {
+    .about {
+      @apply flex flex-col items-center justify-center mb-[48px];
+      h1 {
+        @apply font-semibold text-[38px] leading-[64px] text-[#4E4E4E] 
+        max-992:text-[34px];
+        span {
+          @apply text-[#0BAEB9];
+        }
+      }
+      .line {
+        @apply w-[111px] h-[4px] bg-[#E9E9E9] opacity-[0.6] rounded-[30px] mt-[20px] mb-[24px];
+      }
+
+      p {
+        @apply max-w-[623px] font-normal text-[19px] leading-[150%] text-center text-[#95a1a1]
+         max-992:max-w-[769px];
+      }
+    }
+    .list {
+      @apply flex justify-between gap-[30px] items-center
+      max-768:flex-col max-768:gap-[24px]
+      max-390:flex-row max-390:overflow-auto;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.vicTime {
+  background: url("../../../assets/images/vicTimebg.png");
+  @apply mx-auto bg-cover pt-[102px] pb-[98px] pl-[130px] max-w-[1366px] w-[100%] max-992:pl-[36px] max-576:pl-[33px];
+  .vicTimeBlock {
+    .infoBlock {
+      @apply mb-[60px] max-576:max-w-[538px] max-390:max-w-[356px];
+      .descrs {
+        @apply w-[100%] max-576:flex max-576:flex-col max-576:items-center;
+        h3 {
+          @apply text-[38px] leading-[64px]  font-normal text-white100 max-576:text-[26px];
+          span {
+            @apply text-white;
+          }
+        }
+
+        .line {
+          @apply w-[111px] h-[4px] bg-[#EAEEEF]
+             rounded-[30px] mt-[20px] mb-[24px];
+        }
+        p {
+          @apply font-normal text-[19px] leading-[150%] text-white100 max-w-[567px] max-576:text-[17px] max-576:text-center;
+        }
+      }
+    }
+  }
+}

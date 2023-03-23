@@ -1,0 +1,35 @@
+.propertyBlock {
+  @apply flex justify-between 
+  max-576:flex-col  max-576:items-center max-576:gap-[32px];
+
+  .imgBlock {
+    @apply mb-[42px];
+  }
+  .fristProperty {
+    @apply mt-[71px] max-576:m-0;
+  }
+  .thirdProperty {
+    @apply order-1 max-576:order-2;
+    img {
+      @apply mb-[-8px];
+    }
+  }
+  .secondProperty {
+    @apply mt-[246px] order-2 max-992:mt-[148px] max-768:mt-[181px] max-576:m-0 max-576:order-1;
+  }
+
+  .step {
+    @apply flex flex-col items-center gap-[8px];
+    span {
+      @apply text-[#0BAEB9]  font-semibold text-[45px] leading-[150%] text-center
+      max-390:text-[32px] max-390:mb-[6px];
+    }
+    p {
+      @apply max-w-[350px] font-normal text-[17px] leading-[150%] text-center text-[#95A1A1]
+      max-992:max-w-[290px] max-992:text-[15px]
+      max-768:max-w-[210px]
+      max-576:max-w-[388px] max-576:text-[15px]
+      max-390:max-w-[358px];
+    }
+  }
+}

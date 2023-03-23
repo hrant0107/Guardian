@@ -1,0 +1,31 @@
+.relax {
+  margin-top: 100px;
+  .relaxBlock {
+    background: linear-gradient(
+        177.48deg,
+        rgba(11, 174, 185, 0) 32.27%,
+        #0baeb9 95.84%
+      ),
+      url("../../../assets/images/fam.png");
+    @apply relative bg-center bg-no-repeat bg-cover pt-[229px] pb-[60px] flex flex-col items-center relative;
+
+    h1 {
+      @apply font-normal text-[32px] text-center leading-[120%] text-white100 max-w-[726px] mb-[24px]
+      max-768:max-w-[606px]
+      max-576:max-w-[420px] max-576:text-[24px]
+      max-390:max-w-[360px];
+    }
+    img {
+      left: calc(50% - 40px);
+      top: 231px;
+      @apply absolute w-[60px] h-[60px];
+    }
+    .btn {
+      @apply h-[60px] bg-white300 rounded-[55px] max-w-[257px] w-[100%]  flex items-center justify-center;
+    }
+    button {
+      box-shadow: 0px 4px 24px rgba(11, 174, 185, 0.12);
+      @apply font-normal text-[19px] leading-[24px] text-white;
+    }
+  }
+}

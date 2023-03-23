@@ -1,0 +1,7 @@
+.header {
+  @apply absolute left-0 w-[100%];
+
+  .block {
+    @apply flex justify-between items-center mt-[15px];
+  }
+}

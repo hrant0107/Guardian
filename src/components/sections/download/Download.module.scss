@@ -1,0 +1,49 @@
+.download {
+  @apply pt-[152px] pb-[106px]
+  max-768:pb-[61px];
+
+  .downloadBlcok {
+    @apply relative bg-[#F4F8F9] rounded-[12px] pl-[48px] max-w-[1108px] flex justify-between items-center
+    
+    max-768:flex-col-reverse max-768:justify-center max-768:pl-0
+    max-576:px-[17px];
+    .infoBlock {
+      @apply py-[103px] 
+      max-992:pt-[110px]
+      max-768:pt-[249px] max-768:flex-col max-768:items-center max-768:flex
+      max-576:px-[17px];
+      h1 {
+        @apply max-w-[351px] font-semibold  text-center leading-[130%] text-[38px] text-[#4E4E4E]
+         max-992:max-w-[314px] max-992:text-[34px]
+         max-768:max-w-[570px]
+         max-576:max-w-[478px] max-576:text-[26px]
+         max-390:max-w-[326px];
+
+        span {
+          @apply text-[#0BAEB9];
+        }
+      }
+      .line {
+        @apply w-[111px] h-[4px] bg-[#E9E9E9] opacity-[0.6] rounded-[30px] mt-[20px] mb-[24px] m-auto;
+      }
+      p {
+        @apply mb-[40px] font-normal text-[17px] leading-[150%] text-[#95A1A1] max-w-[398px]
+        max-992:text-[15px] max-992:text-center
+        max-768:max-w-[570px]
+        max-576:max-w-[482px]
+        max-390:max-w-[324px];
+      }
+      .imgBlocks {
+        @apply flex items-center gap-[15px] max-480:flex-col;
+        img {
+          @apply max-w-[180px];
+        }
+      }
+    }
+    .phoneImg {
+      @apply min-992:relative min-992:left-[4s0px]  min-992:bottom-[95px]
+      max-992:mt-[30px]
+      max-768:max-w-[357px] max-768:absolute max-768:top-[-150px];
+    }
+  }
+}

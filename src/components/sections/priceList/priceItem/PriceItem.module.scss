@@ -1,0 +1,54 @@
+.item {
+  @apply rounded-t-xl border border-[#EAEEEF] border-solid max-w-[348px] w-[100%]
+  max-992:max-w-[290px]
+  max-768:flex max-768:max-w-[691px]
+  max-390:flex-col max-390:min-w-[325px];
+  .infoBlock {
+    @apply w-[100%] relative flex flex-col pt-[43px] pb-[24px] items-center bg-[#F4F8F9]
+    max-768:max-w-[315px] max-768:justify-center;
+    span {
+      @apply font-semibold text-[31px] leading-[28px] text-[#0BAEB9] mb-[16px];
+    }
+    h6 {
+      @apply font-semibold text-[29px] leading-[28px] text-[#4E4E4E] mb-[8px]
+      max-576:text-[21px];
+    }
+    p {
+      @apply font-semibold text-[16px] leading-[28px] text-[#AAAEC1];
+    }
+    .popular {
+      @apply absolute top-[-14px] rounded-[40px] right-[26px] bg-[#0BAEB9] px-[20px] py-[2px] text-white font-semibold text-[14px] leading-[28px] uppercase;
+    }
+  }
+  .servicesBlock {
+    @apply max-768:w-[100%];
+  }
+  .services {
+    @apply flex flex-col items-start pl-[24px] pt-[40px] gap-[12px] rounded-b-xl 
+    max-768:max-w-[356px] max-768:pl-[40px]
+    max-576:pl-[23px];
+    .servBlue {
+      @apply text-[#0BAEB9];
+    }
+    .serv {
+      @apply flex items-center justify-center gap-[10px];
+      span {
+        @apply font-semibold text-[13px] leading-[24px] text-[#5B5150]
+         max-992:text-[13px];
+      }
+    }
+  }
+  .btns {
+    @apply w-[100%] px-[24px] my-[32px]
+    max-768:px-[40px]
+    max-576:px-[23px];
+
+    button {
+      @apply rounded-[4px] text-[#4E4E4E] w-[100%] text-[17px] font-semibold leading-[24px] border-solid border-[#0BAEB9] border-2 h-[50px] flex justify-center items-center
+      max-768:text-[16px];
+    }
+    .btnBlue {
+      @apply bg-[#0BAEB9] text-white;
+    }
+  }
+}

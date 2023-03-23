@@ -1,0 +1,9 @@
+.list {
+  @apply flex w-[100%] max-w-[405px] justify-between;
+  .item {
+    @apply text-white100 font-medium text-[15px] leading-[32px];
+  }
+  .activeItem {
+    @apply text-white underline underline-offset-[15px];
+  }
+}

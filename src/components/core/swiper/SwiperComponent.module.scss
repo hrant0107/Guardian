@@ -1,0 +1,15 @@
+.swiperSlide {
+  width: 355px;
+}
+.btns {
+  @apply flex gap-[24px] absolute top-[-120px] right-[128px] max-992:right-[20px]
+  
+  max-576:static max-576:justify-center max-576:mt-[56px];
+  button {
+    @apply w-[70px] h-[70px] flex justify-center items-center rounded-[50%] bg-white;
+  }
+}
+
+.wrapper {
+  position: relative;
+}

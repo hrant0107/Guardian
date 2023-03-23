@@ -1,0 +1,22 @@
+.sliderItem {
+  @apply bg-white  rounded-[12px] h-[100%] border border-solid border-[#F2F2F2] max-w-[355px] w-[100%];
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  .image {
+    @apply w-[100%];
+    img {
+      @apply w-[100%];
+    }
+  }
+
+  .descrBlock {
+    @apply pt-[32px] pb-[16px] px-[24px];
+
+    h6 {
+      @apply font-medium text-[19px] leading-[150%] text-[#4E4E4E] mb-[8px];
+    }
+    p {
+      @apply font-normal text-[14px] leading-[150%] text-[#95a1a1] max-w-[302px] w-[100%] mb-[16px];
+    }
+  }
+}
